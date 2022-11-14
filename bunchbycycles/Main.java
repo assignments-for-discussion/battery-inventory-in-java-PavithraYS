@@ -22,6 +22,20 @@ public class Main {
   }
 
   public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+    int num=sc.nextInt();
+    if(num<400)
+    {
+      System.out.println("low");
+    }
+    elseif(num>400 && num<500)
+    {
+      System.out.println("medium");
+    }
+    else
+    {
+      System.out.println("high");
+       
     testBucketingByNumberOfCycles();
   }
 }
